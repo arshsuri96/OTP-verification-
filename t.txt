@@ -1,0 +1,10 @@
+// we are learning about context --
+
+// context values, how do they make your http clients more useful and less wasteful.
+// USEAGE - cancellation propagation. example - make a sandwhich, however in the middle of procuring ingredients, you decide to stop the process of making a sandwich. we should be able to stop everything
+// USEAGE - to send values, if you want to log stuff
+
+// ctxtype- interface having 4 methods ( 3 method related to cancellation and propagation and 1 related to send values)
+
+// a cluster database, a load balancer, a proxy to redirect http traffic, or a massive scanner which distributes traffic between available servers
+// (my original idea was something pretty similar to this) and when it finalizes, joins results.
